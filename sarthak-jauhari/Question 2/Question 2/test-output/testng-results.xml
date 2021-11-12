@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-12T11:05:22 IST" name="Suite" finished-at="2021-11-12T11:06:06 IST" duration-ms="43490">
+    <groups>
+      <group name="Add">
+        <method signature="TestMonefy.newExpense()[pri:5, instance:com.testcases.TestMonefy@3eb7fc54]" name="newExpense" class="com.testcases.TestMonefy"/>
+        <method signature="TestMonefy.newIncome()[pri:7, instance:com.testcases.TestMonefy@3eb7fc54]" name="newIncome" class="com.testcases.TestMonefy"/>
+      </group> <!-- Add -->
+      <group name="Delete">
+        <method signature="TestMonefy.deleteExpense()[pri:9, instance:com.testcases.TestMonefy@3eb7fc54]" name="deleteExpense" class="com.testcases.TestMonefy"/>
+        <method signature="TestMonefy.deleteIncome()[pri:10, instance:com.testcases.TestMonefy@3eb7fc54]" name="deleteIncome" class="com.testcases.TestMonefy"/>
+      </group> <!-- Delete -->
+      <group name="Balance">
+        <method signature="TestMonefy.balanceButton()[pri:8, instance:com.testcases.TestMonefy@3eb7fc54]" name="balanceButton" class="com.testcases.TestMonefy"/>
+      </group> <!-- Balance -->
+      <group name="Home">
+        <method signature="TestMonefy.expense()[pri:3, instance:com.testcases.TestMonefy@3eb7fc54]" name="expense" class="com.testcases.TestMonefy"/>
+        <method signature="TestMonefy.expenseButton()[pri:4, instance:com.testcases.TestMonefy@3eb7fc54]" name="expenseButton" class="com.testcases.TestMonefy"/>
+        <method signature="TestMonefy.incomeButton()[pri:6, instance:com.testcases.TestMonefy@3eb7fc54]" name="incomeButton" class="com.testcases.TestMonefy"/>
+        <method signature="TestMonefy.finalAmount()[pri:11, instance:com.testcases.TestMonefy@3eb7fc54]" name="finalAmount" class="com.testcases.TestMonefy"/>
+        <method signature="TestMonefy.pieChart()[pri:1, instance:com.testcases.TestMonefy@3eb7fc54]" name="pieChart" class="com.testcases.TestMonefy"/>
+        <method signature="TestMonefy.income()[pri:2, instance:com.testcases.TestMonefy@3eb7fc54]" name="income" class="com.testcases.TestMonefy"/>
+      </group> <!-- Home -->
+    </groups>
+    <test started-at="2021-11-12T11:05:22 IST" name="Test" finished-at="2021-11-12T11:06:06 IST" duration-ms="43490">
+      <class name="com.testcases.TestMonefy">
+        <test-method is-config="true" signature="app()[pri:0, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:01 IST" name="app" finished-at="2021-11-12T11:05:22 IST" duration-ms="20975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- app -->
+        <test-method signature="pieChart()[pri:1, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:22 IST" name="pieChart" finished-at="2021-11-12T11:05:23 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pieChart -->
+        <test-method signature="income()[pri:2, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:23 IST" name="income" finished-at="2021-11-12T11:05:23 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- income -->
+        <test-method signature="expense()[pri:3, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:23 IST" name="expense" finished-at="2021-11-12T11:05:23 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expense -->
+        <test-method signature="expenseButton()[pri:4, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:23 IST" name="expenseButton" finished-at="2021-11-12T11:05:33 IST" duration-ms="10011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expenseButton -->
+        <test-method signature="newExpense()[pri:5, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:33 IST" name="newExpense" finished-at="2021-11-12T11:05:33 IST" depends-on-methods="com.testcases.TestMonefy.expenseButton" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newExpense -->
+        <test-method signature="incomeButton()[pri:6, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:33 IST" name="incomeButton" finished-at="2021-11-12T11:05:42 IST" duration-ms="8505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incomeButton -->
+        <test-method signature="newIncome()[pri:7, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:42 IST" name="newIncome" finished-at="2021-11-12T11:05:42 IST" depends-on-methods="com.testcases.TestMonefy.incomeButton" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newIncome -->
+        <test-method signature="balanceButton()[pri:8, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:42 IST" name="balanceButton" finished-at="2021-11-12T11:05:46 IST" depends-on-methods="com.testcases.TestMonefy.expenseButton, com.testcases.TestMonefy.incomeButton" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- balanceButton -->
+        <test-method signature="deleteExpense()[pri:9, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:46 IST" name="deleteExpense" finished-at="2021-11-12T11:05:49 IST" depends-on-methods="com.testcases.TestMonefy.expenseButton" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExpense -->
+        <test-method signature="deleteIncome()[pri:10, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:49 IST" name="deleteIncome" finished-at="2021-11-12T11:05:59 IST" depends-on-methods="com.testcases.TestMonefy.incomeButton" duration-ms="9610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteIncome -->
+        <test-method signature="finalAmount()[pri:11, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:05:59 IST" name="finalAmount" finished-at="2021-11-12T11:06:06 IST" depends-on-methods="com.testcases.TestMonefy.deleteIncome, com.testcases.TestMonefy.deleteExpense" duration-ms="7027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalAmount -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.testcases.TestMonefy@3eb7fc54]" started-at="2021-11-12T11:06:06 IST" name="aftersuite" finished-at="2021-11-12T11:06:12 IST" duration-ms="6473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.testcases.TestMonefy -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
